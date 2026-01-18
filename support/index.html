@@ -63,12 +63,30 @@
     .tiny { font-size: 12px; }
     .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
     .svg { width: 26px; height: 26px; opacity: 0.9; }
+  
+  .tally-frame {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 12px;
+  box-shadow:
+    0 20px 40px rgba(0,0,0,0.35),
+    0 0 0 1px rgba(255,255,255,0.06);
+}
+
+.tally-frame iframe {
+  display: block;
+  width: 100%;
+  border-radius: 12px;
+}
+  
+  
+  
   </style>
 </head>
 <body>
   <h1>Thank you for supporting Troop 4 Gaspee!</h1>
   You may pay your dues, outing expenese, or simply give a little extra support to Troop 4 by using our tally form below
-  
+ 
 <iframe data-tally-src="https://tally.so/embed/3Ejp5L?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="597" frameborder="0" marginheight="0" marginwidth="0" title="Troop4 Support">
 </iframe>
 <script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}
